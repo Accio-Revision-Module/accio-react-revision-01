@@ -79,8 +79,8 @@ this.setState({ name: "John" });
 
 ## Controlled vs. Uncontrolled Components
 
-- Controlled components have their state controlled by React.
-- Uncontrolled components have their state controlled by the DOM.
+- Controlled components have their state controlled by the parent component.
+- Uncontrolled components have their state controlled by the component itself.
 
 ```javascript
 // Controlled
